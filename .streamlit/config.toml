@@ -1,0 +1,22 @@
+# Streamlit 應用配置
+# 此檔案用於 Streamlit Cloud 部署
+
+[theme]
+# 主題配色
+primaryColor = "#FF4B4B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+# 伺服器設定
+maxUploadSize = 200
+enableXsrfProtection = true
+enableCORS = false
+headless = true
+
+[browser]
+# 瀏覽器設定
+gatherUsageStats = false
+```
